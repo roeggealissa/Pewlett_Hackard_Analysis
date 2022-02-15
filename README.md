@@ -2,7 +2,7 @@
 
 # Understanding Databases with SQL
 
-### Introduction
+### Project Goals
 
 The purpose of this analysis is to use SQL to understanding the timing of replacements in the next few years and exactly how many employees will be paid out by their retirement benefits. A secondary part of this project is creating an employee database using SQL. This project is an example of querying a self created employee database using SQL and making business decisions as a result of the data analysis.
 
