@@ -4,17 +4,17 @@
 
 ### Introduction
 
-The purpose of this analysis is to use SQL to understanding the timing of replacements in the next few years and exactly how many employees will be paid out by their retirement benefits. A secondary part of this project is creating an employee database using SQL.
+The purpose of this analysis is to use SQL to understanding the timing of replacements in the next few years and exactly how many employees will be paid out by their retirement benefits. A secondary part of this project is creating an employee database using SQL. This project is an example of querying a self created employee database using SQL and making business decisions as a result of the data analysis.
 
 ### Data Analysis
 
 ##### Data
 
-The data originally comes in the form of six csvs detailing various bits of the business and employees. The employee names, birth dates, hire dates and leaving dates, as well as departments they belong to and titles they have head within the company are our primary interest. These csvs are imported into Postgres and used to fill the databases created in SQL.
+The data originally comes in the form of six csvs detailing parts of the business and employees. The employee names, birth dates, hire dates and leaving dates, as well as departments they belong to and titles they have head within the company are our primary interest. These csvs are imported into Postgres and used to fill the databases created in SQL.
 
 ##### Analysis
 
-Once we have the initial six tables, we can select the data we need from various ones to create new tables we need. First we look for older workers who will be retiring soon filtering by birth date. We then take an additional step and filter that table and create a new one of unique instances of employees, as some employees changed job while at the company and thus have more than one employee record. From there we can count how many employees are in each job type to determine how many employees per position will need to be filled to compensate for those retiring. In addition to this, we look for slightly younger employees to possibly enter a mentorship program under these retiring staff members. From this we look at if the number of retiring employees is close to that of possible mentees in the program.
+Once we have the initial six tables, we can select the data we need to create new tables we need. First we look for older workers who will be retiring soon filtering by birth date. We then take an additional step and filter that table and create a new one of unique instances of employees, as some employees changed job while at the company and thus have more than one employee record. From there we can count how many employees are in each job type to determine how many employees per position will need to be filled to compensate for those retiring. In addition to this, we look for slightly younger employees to possibly enter a mentorship program under these retiring staff members. From this we look at if the number of retiring employees is close to that of possible mentees in the program.
 
 ### Results
 
