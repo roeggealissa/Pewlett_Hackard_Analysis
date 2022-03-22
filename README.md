@@ -14,6 +14,7 @@ The data originally comes in the form of six csvs detailing parts of the busines
 
 ##### Relational Database
 ![](https://github.com/roeggealissa/Pewlett_Hackard_Analysis/blob/d2a7e1618d5aa2effbb8cffc0e7fd0536591efdf/Data/EmployeeDB.png)
+
 The above image shows the relational database created from the csv files. It also details the keys that are linked between tables.
 
 ##### Analysis
