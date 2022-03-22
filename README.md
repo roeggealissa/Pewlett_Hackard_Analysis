@@ -12,6 +12,10 @@ The purpose of this analysis is to use SQL to understanding the timing of replac
 
 The data originally comes in the form of six csvs detailing parts of the business and employees. The employee names, birth dates, hire dates and leaving dates, as well as departments they belong to and titles they have head within the company are our primary interest. These csvs are imported into Postgres and used to fill the databases created in SQL.
 
+##### Relational Database
+![](https://github.com/roeggealissa/Pewlett_Hackard_Analysis/blob/d2a7e1618d5aa2effbb8cffc0e7fd0536591efdf/Data/EmployeeDB.png)
+The above image shows the relational database created from the csv files. It also details the keys that are linked between tables.
+
 ##### Analysis
 
 Once I have the initial six tables, I selected the data I needed to create new tables that are need. First I look for older workers who will be retiring soon filtering by birth date. I then took an additional step and filter that table and create a new one of unique instances of employees, as some employees changed job while at the company and thus have more than one employee record. From there I counted how many employees are in each job type to determine how many employees per position will need to be filled to compensate for those retiring. In addition to this, I looked for slightly younger employees to possibly enter a mentorship program under these retiring staff members. From this I query to see if the number of retiring employees is close to that of possible mentees in the program.
